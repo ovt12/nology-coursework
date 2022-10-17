@@ -71,3 +71,12 @@ span {
     font-size: 1.5em;
     color: #B48CE0;
 }
+
+ /* flexbox  */
+
+ header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+ }
