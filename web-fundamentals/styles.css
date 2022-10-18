@@ -46,6 +46,7 @@ header h1 {
 
 }
 
+
 .card img {
     margin: 10px;
     min-height: 300px;
@@ -80,3 +81,42 @@ span {
     flex-wrap: wrap;
 
  }
+
+ .flex1 {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+ }
+
+ .flex2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        align-items: center;
+ }
+
+ .flex3 {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	align-items: flex-end;
+ }
+
+ /* .lines { 
+    
+        border-left: 6px solid black;
+        height: 200px;
+        position:absolute;
+        left: 40%;
+        display: flex;
+	    flex-direction: row;
+	    flex-wrap: nowrap;
+	    justify-content: flex-start;
+	    align-items: center;
+ }
+ */
+
